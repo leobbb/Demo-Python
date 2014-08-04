@@ -5,6 +5,6 @@
 
 a, b = 0, 1
 while b < 10: 
-    print(b)
+    print b,  # 输出不换行，并且以空格分隔
     a, b = b, a+b
 
